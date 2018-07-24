@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">DMoviles</string>
-    <string name="nombre"></string>
+    <string name="btn">Soy un boton</string>
 </resources>
