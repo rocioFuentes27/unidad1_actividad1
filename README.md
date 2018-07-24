@@ -1,11 +1,12 @@
-## Actividad 1 Introduccion a TextView.
+## Actividad 4 Manejo de rotacion del dispositivo
 
-TextView es un componente de Android que permite desplegar texto. 
+// Al rotar el dispositivo, Android vuelve a crear la actividad.
+// Esto tiene varias implicaciones, en este ejemplo al rotar el dispositivo, se pierde el valor asignado al TextView tv.
 
-[Referencia](https://developer.android.com/reference/android/widget/TextView)
+[Referencia](https://developer.android.com/guide/components/activities/activity-lifecycle)
 
 Sigue las instrucciones del archivo principal que se encuentra en app/java/unam.fca.dmoviles/MainActivity.java
 
 Al finalizar tu aplicacion debera verse asi:
 
-<img src="https://github.com/tiempor3al/recursos_fca_dispositivos_moviles/blob/master/images/actividad_1.png" width="300">
+<img src="https://github.com/tiempor3al/recursos_fca_dispositivos_moviles/blob/master/images/actividad_4.gif" width="300">
