@@ -43,9 +43,10 @@ public class MainActivity extends AppCompatActivity {
         //a) Ejecuta la aplicacion
         //b) Revisa la referencia y agrega el codigo en el archivo SegundaActividad para que el textview muestre el mensaje que se manda en EXTRA_MESSAGE
         //c) Que otros tipos de datos se pueden mandar?
-        //d) Anota tus respuestas en un documento en Word
-        //e) Sube tu codigo al repositorio.
-        //f) Sube el documento en word a la plataforma Moodle con las capturas de pantalla de tu actividad. Incluye la liga a tu repositorio
+        //d) Revisa el archivo AdroidManifest.xml, que cambios presenta el archivo respecto al de la actividad 2?
+        //e) Anota tus respuestas en un documento en Word
+        //f) Sube tu codigo al repositorio.
+        //g) Sube el documento en word a la plataforma Moodle con las capturas de pantalla de tu actividad. Incluye la liga a tu repositorio
 
     }
 }
