@@ -1,6 +1,6 @@
 ## Actividad 2 Introduccion a eventos con button.
 
-TextView es un componente de Android que permite desplegar texto. 
+Button es un componente de Android que realizar accione al hacer click en el. 
 
 [Referencia](https://developer.android.com/reference/android/widget/Button)
 
