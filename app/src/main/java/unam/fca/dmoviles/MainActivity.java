@@ -1,22 +1,22 @@
 package unam.fca.dmoviles;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
-
-import java.time.LocalDateTime;
 
 public class MainActivity extends AppCompatActivity {
+
+    private static final String  EXTRA_MESSAGE = "EXTRA_MESSAGE";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        //Actividad 2 Introduccion a eventos con Button
-        //https://developer.android.com/reference/android/widget/Button
-        //Button es un componente de Android que realizar acciones al hacer click en el
+        //Actividad 3 Introduccion a Intents
+        //https://developer.android.com/training/basics/firstapp/starting-activity
+        //Intent es un mecanismo que puede ser usado para iniciar otras actividades
 
         // El archivo del layout de la actividad se encuentra en la carpeta
         // res/layout/activity_main.xml
@@ -25,23 +25,27 @@ public class MainActivity extends AppCompatActivity {
 
         //Para hacer referencia a un componente del layout, utilizamos el metodo findViewById
         //y le pasamos como parametro el id correspondiente.
-        final TextView tv = findViewById(R.id.tv);
-
         final Button btn = findViewById(R.id.btn);
 
 
         btn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                tv.setText(LocalDateTime.now().toString());
+
+                Intent intent = new Intent(MainActivity.this, SegundaActividad.class);
+                intent.putExtra(EXTRA_MESSAGE, "Mensaje");
+                startActivity(intent);
+
             }
         });
 
 
         //Actividades
-        //a) Agrega un evento  setOnClickListener al boton como viene en la referencia
-        //b) El el metodo onClick, modifica el texto de tv para que muestre la fecha actual con LocalDateTime.now()
+        //a) Ejecuta la aplicacion
+        //b) Revisa la referencia y agrega el codigo en el archivo SegundaActividad para que el textview muestre el mensaje que se manda en EXTRA_MESSAGE
+        //c) Que otros tipos de datos se pueden mandar?
+        //d) Anota tus respuestas en un documento en Word
         //e) Sube tu codigo al repositorio.
-        //f) Sube un documento en word a la plataforma Moodle con las capturas de pantalla de tu actividad. Incluye la liga a tu repositorio
+        //f) Sube el documento en word a la plataforma Moodle con las capturas de pantalla de tu actividad. Incluye la liga a tu repositorio
 
     }
 }

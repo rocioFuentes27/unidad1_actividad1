@@ -1,11 +1,11 @@
-## Actividad 1 Introduccion a TextView.
+## Actividad 3 Introduccion a Intents.
 
-TextView es un componente de Android que permite desplegar texto. 
+Intent es un mecanismo que puede ser usado para iniciar otras actividades
 
-[Referencia](https://developer.android.com/reference/android/widget/TextView)
+[Referencia](https://developer.android.com/training/basics/firstapp/starting-activity)
 
 Sigue las instrucciones del archivo principal que se encuentra en app/java/unam.fca.dmoviles/MainActivity.java
 
 Al finalizar tu aplicacion debera verse asi:
 
-<img src="https://github.com/tiempor3al/recursos_fca_dispositivos_moviles/blob/master/images/actividad_1.png" width="300">
+<img src="https://github.com/tiempor3al/recursos_fca_dispositivos_moviles/blob/master/images/actividad_3.png" width="300">
