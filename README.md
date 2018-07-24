@@ -1,7 +1,8 @@
 ## Actividad 4 Manejo de rotacion del dispositivo
 
-// Al rotar el dispositivo, Android vuelve a crear la actividad.
-// Esto tiene varias implicaciones, en este ejemplo al rotar el dispositivo, se pierde el valor asignado al TextView tv.
+Al rotar el dispositivo, Android vuelve a crear la actividad.
+
+Esto tiene varias implicaciones, en este ejemplo al rotar el dispositivo, se pierde el valor asignado al TextView tv.
 
 [Referencia](https://developer.android.com/guide/components/activities/activity-lifecycle)
 
