@@ -8,4 +8,4 @@ Sigue las instrucciones del archivo principal que se encuentra en app/src/main/j
 
 Al finalizar tu aplicacion debera verse asi:
 
-<img src="https://github.com/tiempor3al/recursos_fca_dispositivos_moviles/blob/master/images/actividad_1.png" width="300">
+<img src="https://github.com/tiempor3al/recursos_fca_dispositivos_moviles/blob/master/images/actividad_5.gif" width="300">
