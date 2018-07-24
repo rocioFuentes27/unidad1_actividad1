@@ -32,9 +32,9 @@ public class MainActivity extends AppCompatActivity {
 
         //Actividades
         //a) Agrega un evento  setOnClickListener al boton como viene en la referencia
-        //b) El el metodo onClick, modifica el texto de tv para que muestre la fecha actual con LocalDateTime.now()
-        //e) Sube tu codigo al repositorio.
-        //f) Sube un documento en word a la plataforma Moodle con las capturas de pantalla de tu actividad. Incluye la liga a tu repositorio
+        //b) El el metodo onClick, modifica el texto de tv para que muestre la fecha actual con LocalDateTime.now().ToString()
+        //c) Sube tu codigo al repositorio.
+        //d) Sube un documento en word a la plataforma Moodle con las capturas de pantalla de tu actividad. Incluye la liga a tu repositorio
 
     }
 }
