@@ -8,7 +8,8 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String  EXTRA_MESSAGE = "EXTRA_MESSAGE";
+    //Se requiere que sea public para hacer referencia a esta variable en otra actividad
+    public static final String  EXTRA_MESSAGE = "EXTRA_MESSAGE";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
