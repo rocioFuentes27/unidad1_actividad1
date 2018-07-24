@@ -4,7 +4,7 @@ Button es un componente de Android que realizar accione al hacer click en el.
 
 [Referencia](https://developer.android.com/reference/android/widget/Button)
 
-Sigue las instrucciones del archivo principal que se encuentra en app/java/unam.fca.dmoviles/MainActivity.java
+Sigue las instrucciones del archivo principal que se encuentra en app/src/main/java/unam/fca/MainActivity.java
 
 Al finalizar tu aplicacion debera verse asi:
 
