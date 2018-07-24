@@ -1,8 +1,8 @@
-## Actividad 1 Introduccion a TextView.
+## Actividad 5 Recibir datos de otras aplicaciones
+        
+Las aplicaciones en android pueden recibir informacion de otras apps
 
-TextView es un componente de Android que permite desplegar texto. 
-
-[Referencia](https://developer.android.com/reference/android/widget/TextView)
+[Referencia](https://developer.android.com/training/sharing/receive)
 
 Sigue las instrucciones del archivo principal que se encuentra en app/src/main/java/unam/fca/MainActivity.java
 
