@@ -22,9 +22,10 @@ public class MainActivity extends AppCompatActivity {
 
         //Para hacer referencia a un componente del layout, utilizamos el metodo findViewById
         //y le pasamos como parametro el id correspondiente.
-        TextView tv = findViewById(R.id.btn);
 
-        Button btn = findViewById(R.id.btn);
+        final TextView tv = findViewById(R.id.btn);
+
+        final Button btn = findViewById(R.id.btn);
 
 
         //Para cambiar el texto de tv
