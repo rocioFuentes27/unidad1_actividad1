@@ -8,4 +8,4 @@ Sigue las instrucciones del archivo principal que se encuentra en app/java/unam.
 
 Al finalizar tu aplicacion debera verse asi:
 
-<img src="https://github.com/tiempor3al/recursos_fca_dispositivos_moviles/blob/master/images/actividad_3.png" width="300">
+<img src="https://github.com/tiempor3al/recursos_fca_dispositivos_moviles/blob/master/images/actividad_3.gif" width="300">
