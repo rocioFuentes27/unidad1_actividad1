@@ -2,8 +2,9 @@
         
 Las aplicaciones en android pueden recibir informacion de otras apps
 
-[Referencia](https://developer.android.com/training/sharing/receive)
-[Referencia](https://developer.android.com/reference/android/widget/ImageView.ScaleType)
+[Referencia 1](https://developer.android.com/training/sharing/receive)
+
+[Referencia 2](https://developer.android.com/reference/android/widget/ImageView.ScaleType)
 
 
 Sigue las instrucciones del archivo principal que se encuentra en app/src/main/java/unam/fca/MainActivity.java
