@@ -1,10 +1,10 @@
- ## Actividad 6 Recibir datos de otras aplicaciones parte 2
+ ## Actividad 7 ejecutar tareas en segundo plano
         
-Las aplicaciones en android pueden recibir informacion de otras apps
+Las aplicaciones en Android pueden ejecutar tareas en segundo plano para liberar recursos del UI Thread
 
-[Referencia 1](https://developer.android.com/training/sharing/receive)
+[Referencia 1](https://developer.android.com/guide/components/processes-and-threads)
 
-[Referencia 2](https://developer.android.com/reference/android/widget/ImageView.ScaleType)
+[Referencia 2](https://developer.android.com/reference/android/os/AsyncTask)
 
 
 Sigue las instrucciones del archivo principal que se encuentra en app/src/main/java/unam/fca/MainActivity.java
